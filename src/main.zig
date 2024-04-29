@@ -6,12 +6,12 @@ const c = @cImport({
 //const assert = @import("std").debug.assert;
 
 
-const GRID_SIZE:u32 = 2000;
+const GRID_SIZE:u32 = 1500;
 const TOTAL_SIZE: u32 = GRID_SIZE*GRID_SIZE;
 const CELL_SIZE: i8 = 1;
 const WINDOW_SIZE: i32 = CELL_SIZE*GRID_SIZE;
-const p: f16 = 0.00075; // The probability of a tree recovering from burnt --> green
-const f: f16 = 0.000001; // The probability of a green cell to randomly go on fire.
+const p: f16 = 0.00015; // The probability of a tree recovering from burnt --> green
+const f: f16 = 0.0000001; // The probability of a green cell to randomly go on fire.
 
 
 
